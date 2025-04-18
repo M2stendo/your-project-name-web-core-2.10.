@@ -1,52 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Бренды</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chevron_right"/>
 </head>
 <body>
-    <div class="sidebar">
-        <div class="header">
-            <a href="#"><img src="uio.jpeg" alt="by" width="55" height="50" style="z-index: 1; position:absolute; right: 30px; left: 10px; bottom: 885px"></a>
-            <span class="logo"><img src="Group.png"></span>
-            <a href="#"><img src="yu.jpeg" alt="by" width="57" height="60" style="z-index: 1; position:absolute; right: 30px; left: 260px; bottom: 877px;"></a>
-        </div>
-        <ul class="menu">
-            <br>
-            <li class="jk">Ремонт техники</li><img src="tyi.png" alt="by" width="5" height="35" style="z-index: 1; position:absolute; right: 30px; left: 0px; bottom: 800px;"></li>
-            <br>
-            <li>Услуги и сервисы</li>
-            <br>
-            <li>Корпоративным клиентам</li>
-            <br>
-            <li>Продавцам техники</li>
-            <br>
-            <li>Партнерам</li>
-            <br>
-            <li>Производителям</li>
-            <br>
-            <li>Наши сервисные центры</li>
-            <br>
-            <li>Контакты</li>
-        </ul>
-        <div class="footer">
-            <div class="icons">
-                <a href="#"></a><img src="er.jpeg" alt="by" width="57" height="59" style="z-index: 1; position:absolute; right: 30px; left: 0px; bottom: 120px;">
-                <a href="#"><img src="hy.jpeg" alt="by" width="55" height="60" style="z-index: 1; position:absolute; right: 30px; left: 60px; bottom: 120px;"></a>
-                <a href="#"><img src="ru.jpeg" alt="by" width="59" height="55" style="z-index: 1; position:absolute; right: 30px; left: 118px; bottom: 122px;"></a>
-            </div>
-            <p>mail@cps.com</p>
-            <p class="phone">8 800 890 8900</p>
-            <div class="languages">
-                <span class="yo">RU</span>
-                <span>EN</span>
-                <span>CH</span>
-            </div>
-        </div>
+  <div class="container swiper">
+    <div class="card-wrapeer">
+      <ul class="card-list swiper-wrapper">
+        <li class="card-item1 swiper-slide">
+          <a href="#" class="card-link">
+            <img src="Bi" alt="Картинка" class="card-image1"/>
+            <button class="card-button 
+            material-symbols-outlined">chevron_right</button>
+          </a>
+        </li>
+        <li class="card-item2 swiper-slide">
+          <a href="#" class="card-link">
+            <img src="rtrt.png" alt="Картинка" class="card-image2"/>
+            <button class="card-button2
+            material-symbols-outlined">chevron_right</button>
+          </a>
+        </li>
+        <li class="card-item3 swiper-slide">
+          <a href="#" class="card-link">
+            <img src="yyu.png" alt="Картинка" class="card-image3"/>
+            <button class="card-button3 
+            material-symbols-outlined">chevron_right</button>
+          </a>
+        </li>
+        <li class="card-item4 swiper-slide">
+          <a href="#" class="card-link">
+            <img src="op.png" alt="Картинка" class="card-image4"/>
+            <button class="card-button4 
+            material-symbols-outlined">chevron_right</button>
+          </a>
+        </li>
+        <li class="card-item5 swiper-slide">
+          <a href="#" class="card-link">
+            <img src="trtr.png" alt="Картинка" class="card-image5"/>
+            <button class="card-button5 
+            material-symbols-outlined">chevron_right</button>
+          </a>
+        </li>
+        <li class="card-item6 swiper-slide">
+          <a href="#" class="card-link">
+            <img src="kl.png" alt="Картинка" class="card-image6"/>
+            <button class="card-button6 
+            material-symbols-outlined">chevron_right</button>
+          </a>
+        </li>
+        <li class="card-item7 swiper-slide">
+          <a href="#" class="card-link">
+            <img src="kj.png" alt="Картинка" class="card-image7"/>
+            <button class="card-button7 
+            material-symbols-outlined">chevron_right</button>
+          </a>
+        </li>
+        <li class="card-item8 swiper-slide">
+          <a href="#" class="card-link">
+            <img src="jh.png" alt="Картинка" class="card-image8"/>
+            <button class="card-button8 
+            material-symbols-outlined">chevron_right</button>
+      </ul>
     </div>
-</body>
-</html>
+  </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
 </body>
 </html>
