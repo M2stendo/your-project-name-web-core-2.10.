@@ -1,90 +1,310 @@
-body {
-  font-family:"TTLakes-Regular";
-  font-weight: bold;
+* {
   margin: 0;
   padding: 0;
-  display: flex;
-}
-.sidebar {
-  width: 300px;
-  background: #fff;
-  padding: 20px;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-  height: 100vh;
-  box-shadow: 1px 2px 70px #778899;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  box-sizing: border-box;
 }
 
-.close {
-  background: none;
-  border: none;
-  font-size: 30px;
-  cursor: pointer;
-}
-.menu {
-  list-style: none;
-  padding: 0;
-}
-.menu li {
-  padding: 10px 0;
-  cursor: pointer;
-}
-.footer {
-  position: absolute;
-  bottom: 20px;
-}
-.icons {
+body {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#ECEFFE, #CED6F8);
 }
-.icon {
-  background: none;
-  border: none;
-  font-size: 20px;
+
+.card-list .card-item1 {
+  list-style: none;
+  margin-left: 320px;
+  margin-top: 40px;
+}
+
+.card-list .card-item1 .card-link {
+  width: 300px;
+  user-select: none;
+  display: block;
+  background: #fff;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.card-list .card-link .card-image1 {
+  width: 50%;
+}
+
+.card-list .card-link .card-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  background: white;
   cursor: pointer;
+  margin-left: 90px;
+  transition: 0.4s ease;
 }
-.phone {
-  font-weight: bold;
+
+.card-list .card-link:hover .card-button {
+  background: #e91e63;
+  color: white;
+}
+
+.card-list .card-item2 {
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.card-list .card-item2 .card-link {
+  width: 300px;
+  user-select: none;
+  display: block;
+  background: #fff;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.card-list .card-link .card-image2 {
+  width: 50%;
+}
+
+.card-list .card-link .card-button2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  background: white;
+  cursor: pointer;
+  margin-left: 90px;
+  transition: 0.4s ease;
+}
+
+.card-list .card-item3 {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.card-list .card-item3 .card-link {
+  width: 300px;
+  height: 80px;
+  user-select: none;
+  display: block;
+  background: #fff;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.card-list .card-link .card-image3 {
+  width: 52px;
+}
+
+.card-list .card-link .card-button3 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  background: white;
+  cursor: pointer;
+  margin-left: 170px;
+  transition: 0.4s ease;
+}
+
+.card-list .card-link:hover .card-button3 {
+  background: #e91e63;
+  color: white;
+}
+
+.card-list .card-item4 {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.card-list .card-item4 .card-link {
+  width: 300px;
+  height: 80px;
+  user-select: none;
+  display: block;
+  background: #fff;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.card-list .card-link .card-image4 {
+  width: 140px;
+  margin-top: 15px;
+}
+
+.card-list .card-link .card-button4 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  background: white;
+  cursor: pointer;
+  margin-left: 90px;
+  transition: 0.4s ease;
+}
+
+.card-list .card-link:hover .card-button4 {
+  background: #e91e63;
+  color: white;
+}
+
+.card-list .card-item5 {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.card-list .card-item5 .card-link {
+  width: 300px;
+  height: 80px;
+  user-select: none;
+  display: block;
+  background: #fff;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.card-list .card-link .card-image5 {
+  width: 140px;
   margin-top: 10px;
 }
-.languages span {
-  margin-left: 10px;
+
+.card-list .card-link .card-button5 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  background: white;
   cursor: pointer;
+  margin-left: 90px;
+  transition: 0.4s ease;
 }
 
-.logo {
-  margin-right: 170px;
-  margin-left: 50px;
+.card-list .card-link:hover .card-button5 {
+  background: #e91e63;
+  color: white;
 }
 
-.se {
-  background: none;
-  border: none;
+.card-list .card-item6 {
+  list-style: none;
+  margin-right: 300px;
+  margin-top: 40px;
+}
+
+.card-list .card-item6 .card-link {
+  width: 300px;
+  height: 80px;
+  user-select: none;
+  display: block;
+  background: #fff;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.card-list .card-link .card-image6 {
+  width: 50px;
+  margin-right: 180px;
+}
+
+.card-list .card-link .card-button6 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  background: white;
   cursor: pointer;
+  transition: 0.4s ease;
 }
 
-p {
-  margin-left: 10px;
+.card-list .card-link:hover .card-button6 {
+  background: #e91e63;
+  color: white;
 }
 
-.phone {
-  font-size: 25px;
+.card-list .card-item7 {
+  list-style: none;
+  margin-top: 40px;
 }
 
-@font-face {
-  font-family: "TTLakes-Regular";
-  src: url("../git-myyhub/Shrift/TTLakes-Regular.ttf")
+.card-list .card-item7 .card-link {
+  width: 300px;
+  height: 80px;
+  user-select: none;
+  display: block;
+  background: #fff;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
-.yo {
-  color:darkgrey;
+.card-list .card-link .card-button7 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  background: white;
+  cursor: pointer;
+  transition: 0.4s ease;
 }
 
-.jk {
-  color: darkgrey;
+.card-list .card-link:hover .card-button7 {
+  background: #e91e63;
+  color: white;
 }
 
+.card-list .card-link .card-image7 {
+  width: 120px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.card-list .card-item8 {
+  list-style: none;
+  margin-top: 40px;
+  margin-right: 900px;
+}
+
+.card-list .card-item8 .card-link {
+  width: 300px;
+  height: 80px;
+  user-select: none;
+  display: block;
+  background: #fff;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.card-list .card-link .card-image8 {
+  width: 120px;
+  margin-top: 15px;
+}
+
+.card-list .card-link .card-button8 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+  background: white;
+  cursor: pointer;
+  margin-left: 90px;
+  transition: 0.4s ease;
+}
+
+.card-list .card-link:hover .card-button8 {
+  background: #e91e63;
+  color: white;
+}
